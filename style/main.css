@@ -1,0 +1,202 @@
+.hawaii-background {
+  background-image: url("../assets/Images/hawaii.jpg");
+}
+
+.greece-background {
+  background-image: url("../assets/Images/greece.jpg");
+}
+
+.iceland-background {
+  background: url("../assets/Images/iceland.jpg");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+.nav {
+  background-color: #FEFAF5;
+  font-family: "Verdana";
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.25rem 3.125rem 1.25rem 5.625rem;
+}
+.nav__link {
+  color: #335576;
+  text-decoration: none;
+  display: flex;
+  padding: 0.625rem auto 0.625rem 3.125rem;
+}
+.nav__list {
+  color: black;
+  list-style-type: none;
+  display: flex;
+  width: 25%;
+  justify-content: space-around;
+}
+.nav__list__item {
+  font-family: "Verdana";
+  color: inherit;
+}
+.nav__list__item__a {
+  color: #000;
+}
+.nav__list__item--active {
+  border-bottom: 0.1875rem solid #DB7A4E;
+  color: inherit;
+}
+
+.footer {
+  background-color: #FEFAF5;
+  height: 13.75rem;
+}
+.footer .footer__section {
+  display: flex;
+  justify-content: space-around;
+}
+.footer .footer__section .footer__workinghours--container {
+  display: flex;
+  flex-direction: row;
+}
+.footer .footer__section .footer__workinghours--container .footer__hours--container {
+  display: flex;
+  flex-direction: column;
+  margin-right: 15px;
+}
+.footer .footer__section .footer__workinghours--container .footer__hours--container:last-child {
+  margin-right: 0;
+}
+.footer .footer__section .footer__contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-top: 50px;
+}
+.footer .footer__section .heading__hours {
+  padding-top: 60px;
+  font-family: "Verdana";
+  color: #335576;
+  font-size: 1.625rem;
+}
+.footer .footer__section .footer__media .social {
+  font-family: "Verdana";
+  color: #335576;
+  font-size: 1.625rem;
+  padding-top: 60px;
+}
+.footer .footer__section .footer__media .social__container {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  align-items: end;
+  padding-top: 1.25rem;
+}
+
+.heading {
+  font-family: "Verdana";
+  color: #335576;
+  font-size: 1.625rem;
+}
+
+.subheading {
+  font-family: "Verdana";
+  color: #DB7A4E;
+  padding-top: 1.25rem;
+  font-weight: 300;
+  font-size: 12px;
+}
+
+.paragraph {
+  font-family: "Verdana";
+  color: #335576;
+  font-size: 14px;
+  font-weight: 300;
+  padding-top: 10px;
+}
+
+.icon {
+  width: 2.1875rem;
+}
+
+.icon__facebook {
+  height: 40%;
+  width: 1.125rem;
+}
+
+.hero {
+  background-color: #FEFAF5;
+  display: flex;
+  justify-content: space-between;
+  padding: 5rem;
+}
+.hero .hero__heading {
+  font-family: "Verdana";
+  color: #335576;
+  text-align: left;
+  width: 90%;
+  font-size: 2.5rem;
+}
+.hero .hero__paragraph {
+  font-family: "Verdana";
+  color: #335576;
+  text-align: left;
+  padding-top: 2.5rem;
+  font-size: 1rem;
+  width: 100%;
+}
+.hero .hero__button {
+  background-color: #DB7A4E;
+  font-family: "Verdana";
+  color: #FFFFFF;
+  border: 0.3125rem solid #DB7A4E;
+  border-radius: 5rem;
+  margin-top: 2.5rem;
+  font-size: 1rem;
+  width: 30%;
+  height: 2.5rem;
+}
+.hero .hero__img {
+  width: 31.25rem;
+  height: 26.25rem;
+  display: flex;
+}
+
+.recommend {
+  background-color: #FFFFFF;
+}
+.recommend .recommend__heading {
+  font-family: "Verdana";
+  color: #335576;
+  padding: 3.125rem 0 2.5rem 2.5rem;
+}
+.recommend .container {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 5rem;
+  padding-right: 9.375rem;
+  padding-left: 9.375rem;
+}
+.recommend .container .card {
+  width: 17.5rem;
+  height: 26.25rem;
+  border-radius: 0.3125rem;
+  border: 0.0625rem solid black;
+  box-shadow: 0rem 0.25rem 0.25rem 0.3125rem rgba(0, 0, 0, 0.2);
+  position: relative;
+}
+.recommend .container .card .card__image {
+  width: 100%;
+  height: 100%;
+}
+.recommend .container .card .card__paragraph {
+  font-family: "Verdana";
+  color: #FFFFFF;
+  font-size: 1.625rem;
+  font-weight: 600;
+  position: absolute;
+  bottom: 1.25rem;
+  right: 1.25rem;
+}/*# sourceMappingURL=main.css.map */

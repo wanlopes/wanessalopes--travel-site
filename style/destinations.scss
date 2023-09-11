@@ -1,0 +1,73 @@
+@use "./partials/global" as *;
+
+.section {
+  display: flex;
+  align-content: center;
+  background-size: cover;
+  background-position: center;
+  width: 78.9375rem;
+  height: 45.625rem;
+
+  .section__title {
+    font-family: $verdana;
+    color: $white;
+    font-size: 4.375rem;
+    padding-top: 3.125rem;
+    padding-left: 5rem;
+  }
+  .card__box {
+    display: flex;
+    justify-content: space-between;
+
+    .card {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      margin: 5rem 3.125rem 8.125rem 4.375rem;
+
+      .card__component {
+        width: 17.5rem;
+        height: 24.375rem;
+        background-color: $white;
+        border-radius: 0.3125rem;
+      }
+      .card__heading {
+        font-family: $verdana;
+        color: black;
+        font-size: 1.25rem;
+        justify-content: center;
+        text-decoration-line: underline;
+        text-decoration-thickness: 0.125;
+        text-underline-offset: 0.3125rem;
+        padding-top: 1.25rem;
+        position: relative;
+      }
+      .card__heading::after {
+        content: "";
+        display: block;
+        width: 100%;
+        height: 0.1875rem;
+        background-color: $black;
+        position: absolute;
+        bottom: -0.1875;
+        left: 1.25rem;
+        width: 15rem;
+      }
+    }
+    .card__list {
+      list-style-type: none;
+      padding-top: 30px;
+
+      .card__list__item {
+        font-family: $verdana;
+        color: black;
+        font-size: 1.25rem;
+        background-color: #fefaf5;
+        padding-top: 0.625rem;
+        padding-bottom: 0.9375rem;
+        margin: 0.625rem 0.9375rem 0.9375rem 0.9375rem;
+      }
+    }
+  }
+}

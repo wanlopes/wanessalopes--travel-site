@@ -1,0 +1,195 @@
+.hawaii-background {
+  background-image: url("../assets/Images/hawaii.jpg");
+}
+
+.greece-background {
+  background-image: url("../assets/Images/greece.jpg");
+}
+
+.iceland-background {
+  background: url("../assets/Images/iceland.jpg");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+.nav {
+  background-color: #FEFAF5;
+  font-family: "Verdana";
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.25rem 3.125rem 1.25rem 5.625rem;
+}
+.nav__link {
+  color: #335576;
+  text-decoration: none;
+  display: flex;
+  padding: 0.625rem auto 0.625rem 3.125rem;
+}
+.nav__list {
+  color: black;
+  list-style-type: none;
+  display: flex;
+  width: 25%;
+  justify-content: space-around;
+}
+.nav__list__item {
+  font-family: "Verdana";
+  color: inherit;
+}
+.nav__list__item__a {
+  color: #000;
+}
+.nav__list__item--active {
+  border-bottom: 0.1875rem solid #DB7A4E;
+  color: inherit;
+}
+
+.footer {
+  background-color: #FEFAF5;
+  height: 13.75rem;
+}
+.footer .footer__section {
+  display: flex;
+  justify-content: space-around;
+}
+.footer .footer__section .footer__workinghours--container {
+  display: flex;
+  flex-direction: row;
+}
+.footer .footer__section .footer__workinghours--container .footer__hours--container {
+  display: flex;
+  flex-direction: column;
+  margin-right: 15px;
+}
+.footer .footer__section .footer__workinghours--container .footer__hours--container:last-child {
+  margin-right: 0;
+}
+.footer .footer__section .footer__contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-top: 50px;
+}
+.footer .footer__section .heading__hours {
+  padding-top: 60px;
+  font-family: "Verdana";
+  color: #335576;
+  font-size: 1.625rem;
+}
+.footer .footer__section .footer__media .social {
+  font-family: "Verdana";
+  color: #335576;
+  font-size: 1.625rem;
+  padding-top: 60px;
+}
+.footer .footer__section .footer__media .social__container {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  align-items: end;
+  padding-top: 1.25rem;
+}
+
+.heading {
+  font-family: "Verdana";
+  color: #335576;
+  font-size: 1.625rem;
+}
+
+.subheading {
+  font-family: "Verdana";
+  color: #DB7A4E;
+  padding-top: 1.25rem;
+  font-weight: 300;
+  font-size: 12px;
+}
+
+.paragraph {
+  font-family: "Verdana";
+  color: #335576;
+  font-size: 14px;
+  font-weight: 300;
+  padding-top: 10px;
+}
+
+.icon {
+  width: 2.1875rem;
+}
+
+.icon__facebook {
+  height: 40%;
+  width: 1.125rem;
+}
+
+.section {
+  display: flex;
+  align-content: center;
+  background-size: cover;
+  background-position: center;
+  width: 78.9375rem;
+  height: 45.625rem;
+}
+.section .section__title {
+  font-family: "Verdana";
+  color: #FFFFFF;
+  font-size: 4.375rem;
+  padding-top: 3.125rem;
+  padding-left: 5rem;
+}
+.section .card__box {
+  display: flex;
+  justify-content: space-between;
+}
+.section .card__box .card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 5rem 3.125rem 8.125rem 4.375rem;
+}
+.section .card__box .card .card__component {
+  width: 17.5rem;
+  height: 24.375rem;
+  background-color: #FFFFFF;
+  border-radius: 0.3125rem;
+}
+.section .card__box .card .card__heading {
+  font-family: "Verdana";
+  color: black;
+  font-size: 1.25rem;
+  justify-content: center;
+  text-decoration-line: underline;
+  text-decoration-thickness: 0.125;
+  text-underline-offset: 0.3125rem;
+  padding-top: 1.25rem;
+  position: relative;
+}
+.section .card__box .card .card__heading::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 0.1875rem;
+  background-color: #000;
+  position: absolute;
+  bottom: -0.1875;
+  left: 1.25rem;
+  width: 15rem;
+}
+.section .card__box .card__list {
+  list-style-type: none;
+  padding-top: 30px;
+}
+.section .card__box .card__list .card__list__item {
+  font-family: "Verdana";
+  color: black;
+  font-size: 1.25rem;
+  background-color: #fefaf5;
+  padding-top: 0.625rem;
+  padding-bottom: 0.9375rem;
+  margin: 0.625rem 0.9375rem 0.9375rem 0.9375rem;
+}/*# sourceMappingURL=destinations.css.map */
